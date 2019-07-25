@@ -1,0 +1,79 @@
+<html>
+<body>
+<h1 id="title">Food Survey</h1>
+  <p id="description">
+    Let us know how much people interested in Hyderabad food
+  </p>
+
+<form id="survey-form">
+  <br/><br/>
+  <div class="form-name">
+<label id="name-label" for="name">* Name: </label>
+<input type="text" id="name" class="input-field" placeholder="Enter your name" required>
+</div>
+  <br/>
+  <img src="https://assets3.thrillist.com/v1/image/2797371/size/tl-horizontal_main_2x.jpg"alt="food" align="right">
+<div class="form-email">
+  <label id="email-label" for="email">* Email: </label>
+  <input type="email"id="email" class="input-field" required placeholder="Enter your Email">
+</div>
+  <br/>
+<div class="form-age">
+  <label id="number-label" for="age">* Age: </label>
+  <input type="number" id="number" min="1" max="100" class="input-field" placeholder="Age">
+</div>
+  <br/>
+  
+<div class="form-pos">
+  <label for="position-label">Your current position (or) role ?</label>
+  <select id="dropdown" name="position" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option  value="student">Student</option>
+      <option value="job">Doing Job</option>
+      <option value="learner">chef</option>
+      <option value="business">business man</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+  <br/>
+  <div class="form-foodies">
+    <label id="best">which places you like to eat food in hyderabad: </label>
+    <select id="best" name="best" class="dropdown">
+      <option disabled selected value>Select an option</option>
+      <option value="Gokul Chaat">Gokul Chaat</option>
+      <option value="paradise">Paradise Biryani </option>
+      <option value="Bawarchi">Bawarchi Restaurant</option>
+      <option value="all city">all city</option>
+    </select>
+      </div><br/>
+  <div class="form-food">
+  <label id="anyone">*your favourite food in Hydrabad ?</label>
+  <ul style="list-style:none;">
+          <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="form-food" >Biryani</label></li>
+          <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="form-food" >goalgapaa</label></li>
+          <li class="radio"><label><input name="radio-buttons" value="3"  type="radio" class="form-food" >another</label></li>
+    <li class="radio"><label><input name="radio-buttons" value="4"  type="radio" class="form-food" >all foods of Hydrabad</label></li>
+        </ul>
+  </div>
+  <br/>
+ <div class="form-foodchk">
+  <label for="prefer">which places you like to eat food in hyderabad:<br>(Check all that apply): </label>
+   <ul id="prefer" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="form-foodchk">Paradise Biryani</label></li>
+          <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="form-foodchk">Bawarchi Restaurant</li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="form-foodchk">Gokul Chaat</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="form-foodchk">Sharma Chat House</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="form-foodchk">gril9</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="form-foodchk">Pizza Den</label></li>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="form-foodchk">kfc</label></li>
+          
+        </ul>
+      </div><br/>
+<div class="comments">  
+<label for="comments">Give your valuable Comments or Suggestions ?</label><br/>
+  <textarea id="comments" class="input-field" style="height:6em;" name="comment" placeholder="Enter your valuable comment here....."></textarea>
+  </div><br/>
+<button type="submit" id="submit">Submit</button>
+</form>
+</body>
+</html>

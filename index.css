@@ -1,0 +1,26 @@
+body{
+  text-align:center;
+  background-color:lightgreen;
+  font-family:Helvetica;
+}
+#description{
+  color:blue;
+}
+#survey-form{
+  background-color:white;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+  border-radius: 6px;
+  text-align: justify;
+  padding:2em;
+  
+}
+img{
+  height:300px;
+  width:45%
+}
+#comments{
+  width:45%;
+  
+}
